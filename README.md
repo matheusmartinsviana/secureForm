@@ -1,6 +1,6 @@
 # SecureForm
 
-SecureForm é um aplicativo web que implementa proteção CSRF usando TypeScript e React. Este projeto apresenta um processo seguro de envio de formulários, garantindo que apenas solicitações autorizadas possam ser processadas pelo servidor.
+SecureForm é uma aplicação web que implementa proteção CSRF usando TypeScript e React. Este projeto apresenta um processo seguro de envio de formulários, garantindo que apenas solicitações autorizadas possam ser processadas pelo servidor.
 
 ## Características
 
