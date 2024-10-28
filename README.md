@@ -1,42 +1,41 @@
 # SecureForm
 
-SecureForm is a web application that implements CSRF protection using TypeScript and React. This project showcases a secure form submission process, ensuring that only authorized requests can be processed by the server.
+SecureForm é um aplicativo web que implementa proteção CSRF usando TypeScript e React. Este projeto apresenta um processo seguro de envio de formulários, garantindo que apenas solicitações autorizadas possam ser processadas pelo servidor.
 
-## Features
+## Características
 
-- **CSRF Protection**: Utilizes `csurf` middleware to protect against CSRF attacks.
-- **Cookie-Based Tokens**: Generates CSRF tokens that are sent via cookies for secure verification.
-- **Responsive UI**: Built with React, providing a seamless user experience.
+- **Proteção CSRF**: Utiliza middleware `csurf` para proteção contra ataques CSRF.
+- **Tokens baseados em cookies**: gera tokens CSRF que são enviados por meio de cookies para verificação segura.
 
-## Technologies Used
+## Tecnologias usadas
 
 - **Frontend**: React, TypeScript, Axios
 - **Backend**: Node.js, Express, csurf, dotenv
-- **Others**: Cookie-Parser, CORS
+- **Outros**: Cookie parser, CORS
 
-## Getting Started
+## Começando
 
-### Prerequisites
+### Pré-requisitos
 
-Ensure you have the following installed:
+Certifique-se de ter o seguinte instalado:
 
-- Node.js (version 14 or higher)
-- npm (Node package manager)
+- Node.js (versão 14 ou superior)
+- npm
 
-### Installation
+### Instalação
 
-1. Clone the repository:
+1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/yourusername/secureform.git
-   cd secureform
+   git clone https://github.com/seunomedeusuario/secureform.git
+   cd secureForm
    ```
 
-2. Install the dependencies for both frontend and backend:
+2. Instale as dependências para frontend e backend:
 
    ```bash
    cd backend
-   npm install
+   npm i
    cd ../frontend
-   npm install
+   npm i
    ```
